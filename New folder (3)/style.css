@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap");
+
+body {
+  background-color: white;
+
+  text-align: center;
+  flex-direction: column;
+  font-family: "Red Hat Display";
+}
+
+.container {
+  box-shadow: gray 100%;
+
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  z-index: -1;
+  position: relative;
+}
+
+.Grup {
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+  gap: 20px;
+  text-align: center;
+
+  align-items: center;
+  color: #28283d;
+}
+
+.Meet {
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+
+  text-align: center;
+  align-items: center;
+
+  color: #87879d;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.Dugme1 {
+  gap: 20px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  background: #4d96a9;
+  border-radius: 29px;
+
+  border: none;
+  color: #ffffff;
+}
+
+.Dugme2 {
+  gap: 20px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  background: #855fb1;
+  border-radius: 29px;
+  border: none;
+
+  color: #ffffff;
+}
+
+.krrug {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slike {
+  border-radius: 50%;
+  width: 110px;
+}
+
+.dveslike2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.dveslike {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.drugedveslike2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-top: 20px;
+}
+
+.drugedveslike {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  bottom: 30px;
+  margin-top: 20px;
+}
+
+.trecedveslike2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.trecedveslike {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.slike-desno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slikelevo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.linija {
+  height: 100px;
+  border: 1px solid gray;
+  /*opacity: 0.35;*/
+  width: 0;
+}
+
+.drugedveslike {
+  position: relative;
+}
+
+.krug {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid gray;
+  color: rgb(135, 135, 157);
+  text-align: center;
+
+  /*opacity: 0.35;*/
+  mix-blend-mode: normal;
+}
+
+.krug > * {
+  text-align: center;
+  opacity: 1;
+}
+
+.slike-dole {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 15%;
+  max-width: 70%;
+
+  gap: 30px;
+}
+
+.slike-dole img {
+  display: flex;
+  border-radius: 5%;
+  height: auto;
+  width: 15%;
+}
+
+.prvitekst {
+  font-weight: 900;
+  color: #4d96a9;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.drugitekst {
+  line-height: 44px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.trecitekts {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #87879d;
+}
+
+.krug1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  z-index: 1;
+}
+
+.linija2 {
+  height: 100px;
+  border: 1px solid gray;
+  /*opacity: 0.35;*/
+  width: 0;
+}
+
+.krug2 {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid gray;
+  color: rgb(135, 135, 157);
+  text-align: center;
+  z-index: 1;
+  margin-bottom: -40px;
+
+  /*opacity: 0.35;*/
+  mix-blend-mode: normal;
+}
+
+.krug2 > * {
+  text-align: center;
+  opacity: 1;
+}
+
+.slika {
+  display: flex;
+  background-position: center;
+  background-image: url(/desktop/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+}
+
+.slika .boja2 {
+  align-items: center;
+  flex-direction: row;
+
+  padding: 100px;
+  display: flex;
+  color: #fafafa;
+  background: #4d96a9;
+  background-blend-mode: overlay;
+
+  opacity: 0.8;
+}
+
+.prvitekst1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  z-index: 1;
+  color: #fafafa;
+}
+
+.drugitekst1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  color: #fafafa;
+  z-index: 1;
+}
+
+.dugme-trece {
+  /*width: 193px;
+    height: 58px;*/
+  padding: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  background: #855fb1;
+  border-radius: 29px;
+  border: none;
+
+  color: #ffffff;
+}
+
+.Dugme1:active {
+  background: rgb(143, 227, 249);
+}
+
+.dugme-trece:active {
+  background: rgb(217, 184, 255);
+}
+
+.Dugme2:active {
+  background: rgb(217, 184, 255);
+}
+
+@media screen and (max-width: 1025px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .tekst {
+    flex-basis: 100%;
+    order: 2;
+  }
+}
+
+.slikelevo {
+  flex-basis: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: -20px;
+}
+
+.slike-desno {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  gap: -20px;
+
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 789px) {
+  .slika .boja2 {
+    flex-direction: column;
+  }
+
+  .slike-dole {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+  }
+
+  .slike-dole img {
+    width: calc(50% - 15px);
+  }
+
+  .slike {
+    flex-wrap: wrap;
+
+    max-width: 80%;
+  }
+
+  .slike img {
+    width: calc(50% - 15px);
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .slike-dole {
+    flex-wrap: wrap;
+
+    max-width: 70%;
+  }
+
+  .slike-dole img {
+    width: calc(50% - 15px);
+  }
+
+  .slike {
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .slike img {
+    width: calc(50% - 15px);
+    margin: auto;
+  }
+}
